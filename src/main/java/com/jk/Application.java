@@ -54,6 +54,7 @@ public class Application extends SpringBootServletInitializer {
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
         logger.info("============= SpringBoot Start Success =============");
+	console.log('1111')
 
     }
 }
